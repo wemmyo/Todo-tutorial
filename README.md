@@ -54,3 +54,57 @@ By the end of this tutorial, you should be able to:
 Congratulations on building your To-Do App! This is a foundational project that helps solidify your understanding of the basics of web development. As you grow in your coding journey, consider enhancing this app by adding more advanced features or integrating it with backend technologies.
 
 Happy coding!
+
+## Version Control with Git
+
+Using Git is an essential tool for developers. Here's a basic guide to get started with Git for this project.
+
+### Prerequisites
+
+1. [Git](https://git-scm.com/) installed on your computer.
+2. A [GitHub](https://github.com/) account (or another Git hosting service, if preferred).
+
+### Basics of Git
+
+1. **Initialization**:
+
+   - Navigate to your project folder in your terminal or command prompt.
+   - Run `git init` to initialize a new Git repository.
+
+2. **Staging Changes**:
+
+   - As you make changes to your files, Git tracks them.
+   - Use `git status` to see which changes are being tracked.
+   - Use `git add .` to stage all changes or `git add <filename>` to stage specific files.
+
+3. **Committing Changes**:
+
+   - After staging, you can commit your changes. This is like saving a version of your code.
+   - Run `git commit -m "Your descriptive message here"` to commit your staged changes.
+
+4. **Remote Repositories**:
+
+   - Go to GitHub and create a new repository.
+   - To link your local repository to the GitHub repository, run:
+     ```
+     git remote add origin https://github.com/YourUsername/YourRepositoryName.git
+     ```
+
+5. **Pushing Changes**:
+
+   - After committing your changes locally, you can push them to GitHub.
+   - Run `git push -u origin master` to push your changes to the master branch of your repository on GitHub.
+
+6. **Pulling Changes**:
+   - If you're collaborating with others or made changes on GitHub directly, you'll want to pull those changes to your local machine.
+   - Use `git pull origin master` to get the latest version from the master branch.
+
+### Useful Tips
+
+- Commit often with meaningful messages. This makes it easier to track changes and find specific versions later.
+- Before starting any new work, it's a good habit to pull the latest changes.
+- If you're new to Git, there are many online resources and tutorials to dive deeper and learn more advanced features.
+
+---
+
+With the added knowledge of Git, not only will learners build a To-Do App but also get familiar with version control, a key aspect of software development.
