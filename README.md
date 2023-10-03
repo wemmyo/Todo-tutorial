@@ -49,12 +49,6 @@ By the end of this tutorial, you should be able to:
    - Open `index.html` in your web browser.
    - Test all the features to ensure they're working as expected.
 
-## Conclusion
-
-Congratulations on building your To-Do App! This is a foundational project that helps solidify your understanding of the basics of web development. As you grow in your coding journey, consider enhancing this app by adding more advanced features or integrating it with backend technologies.
-
-Happy coding!
-
 ## Version Control with Git
 
 Using Git is an essential tool for developers. Here's a basic guide to get started with Git for this project.
